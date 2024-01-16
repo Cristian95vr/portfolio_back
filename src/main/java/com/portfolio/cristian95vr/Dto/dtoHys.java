@@ -10,6 +10,7 @@ import javax.validation.constraints.NotBlank;
 public class dtoHys {
     @NotBlank
     private String nombre;
+    @NotBlank
     private int porcentaje;
 
     public dtoHys() {
